@@ -3,24 +3,24 @@
 
 int main ()
 {
-  
+  	//introduzi a variáveis
 	int idade,maior,i;
 	i = 0;
 	maior = 0;
-	
+	//Usei o laço de repetição do while
 	do
 	{	
-		scanf("%i",&idade);
+		scanf("%i",&idade); // ler as idades
 		
-		if (idade > maior)
+		if (idade > maior)  
 		{
-			maior = idade;
+			maior = idade; // atribuir a maior idade
 		}
 		i++;
 	}
 	while (i < 5);
-	
-	printf("A maior idade é:%i\n",maior);
+
+	printf("A maior idade é:%i\n",maior); //imprimir maior idade
 	
 	return 0;
 }
